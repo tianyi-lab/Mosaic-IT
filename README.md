@@ -4,7 +4,7 @@ This is the repo for the Mosaic-IT project, which introduces an augmentation met
 
 ## News
 
-- [2024/01] We released the Mosaic-IT code.
+- [2024/05] We released the Mosaic-IT code.
 
 ## Overview
 
