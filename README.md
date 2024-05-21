@@ -39,7 +39,7 @@ python Mosaic-IT/mosaic_main.py \
 ```--epo_num```: The times of random mosaic process to be run. <br>
 ```--wrap_mode```: How to decide the distribution of the number of instructions. <br>
 ```--wrap_max_num```: Max number of instructions. <br>
-``--version```: Mosaic Strateties. 
+```--version```: Mosaic Strateties. 
 
 ## ToDo
 - [ ] Release the code and papers. 
