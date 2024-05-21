@@ -33,12 +33,12 @@ python Mosaic-IT/mosaic_main.py \
     --version both
 ```
 
-```--data_path```: Input data, in alpaca format. 
-```--save_path```: Save data path.
-```--model_name_or_path```: The model used to calculate the token counts. 
-```--epo_num```: The times of random mosaic process to be run. 
-```--wrap_mode```: How to decide the distribution of the number of instructions.
-```--wrap_max_num```: Max number of instructions. 
+```--data_path```: Input data, in alpaca format. <br>
+```--save_path```: Save data path. <br>
+```--model_name_or_path```: The model used to calculate the token counts. <br>
+```--epo_num```: The times of random mosaic process to be run. <br>
+```--wrap_mode```: How to decide the distribution of the number of instructions. <br>
+```--wrap_max_num```: Max number of instructions. <br>
 ``--version```: Mosaic Strateties. 
 
 ## ToDo
