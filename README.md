@@ -1,4 +1,10 @@
-# Mosaic-IT
+# Mosaic IT: Enhancing Instruction Tuning with Data Mosaics
+
+[Mosaic IT: Enhancing Instruction Tuning with Data Mosaics](https://github.com/MingLiiii/Mosaic-IT)
+
+<p align="center" width="40%">
+<a ><img src="images/icon.png" alt="overview" style="width: 40%; min-width: 300px; display: block; margin: auto;"></a>
+</p>
 
 This is the repo for the Mosaic-IT project, which introduces an augmentation method for Instruction Tuning. 
 
