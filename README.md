@@ -2,18 +2,6 @@
 
 This is the repo for the Mosaic-IT project, which introduces an augmentation method for Instruction Tuning. 
 
-## News
-
-- [2024/05] We released the Mosaic-IT code.
-
-## Overview
-
-TBD
-
-## Highlights
-
-TBD
-
 ## Install
 
 Install the dependencies with `pip install -r requirements.txt`
@@ -39,7 +27,12 @@ python Mosaic-IT/mosaic_main.py \
 ```--epo_num```: The times of random mosaic process to be run. <br>
 ```--wrap_mode```: How to decide the distribution of the number of instructions. <br>
 ```--wrap_max_num```: Max number of instructions. <br>
-```--version```: Mosaic Strateties. 
+```--version```: Mosaic Strateties. <br>
 
-## ToDo
-- [ ] Release the code and papers. 
+## Training
+
+We use the prompt and code base from [FastChat](https://github.com/lm-sys/FastChat):
+
+```
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: Hi ASSISTANT: Hello.</s>USER: Who are you? ASSISTANT: I am ...</s>......
+```
