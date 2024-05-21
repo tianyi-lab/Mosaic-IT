@@ -1,12 +1,47 @@
 # Mosaic IT: Enhancing Instruction Tuning with Data Mosaics
 
-[Mosaic IT: Enhancing Instruction Tuning with Data Mosaics](https://github.com/MingLiiii/Mosaic-IT)
+[Mosaic IT: Enhancing Instruction Tuning with Data Mosaics](https://github.com/MingLiiii/Mosaic-IT) (Will be on Arxiv soon.)
 
 <p align="center" width="40%">
 <a ><img src="images/icon.png" alt="overview" style="width: 40%; min-width: 300px; display: block; margin: auto;"></a>
 </p>
 
-This is the repo for the Mosaic-IT project, which introduces an augmentation method for Instruction Tuning. 
+This is the repo for the Mosaic-IT project, which introduces an augmentation method for Instruction Tuning, which concurrently **improves the LLM performances** and **lowers the training expenses**. 
+
+(Feel free to email minglii@umd.edu for any questions or feedback.)
+
+## News
+- [2024/05] We initialized the Mosaic-IT repo.
+
+## Contents
+- [Overview](#overview)
+- [Highlights](#highlights)
+- [Install](#install)
+- [Run Code](#run-code)
+- [ToDo](#todo)
+- [Citation](#citation)
+- [Related Works](#related_works)
+
+## Overview
+
+Finetuning large language models with a variety of instruction-response pairs has enhanced their capability to understand and follow instructions.
+Current instruction tuning primarily relies on teacher models or human intervention to generate and refine the instructions and responses, which are costly, non-sustainable, and may lack diversity. 
+In this paper, we introduce Mosaic Instruction Tuning (Mosaic-IT), a human/model-free method that can efficiently create rich and diverse augmentations from existing instruction tuning data to enhance the finetuned LLM.
+Mosaic-IT randomly concatenates multiple instruction data into one and trains the model to produce the corresponding responses with predefined higher-level meta-instructions to strengthen its multi-step instruction-following and format-following skills. 
+Our extensive evaluations demonstrate a superior performance and training efficiency of Mosaic-IT, which achieves consistent performance improvements over various benchmarks and a $80\%$ reduction in training costs compared with original instruction tuning.
+
+<p align="center" width="90%">
+<a ><img src="images/method.png" alt="overview" style="width: 90%; min-width: 300px; display: block; margin: auto;"></a>
+</p>
+
+Illustration of Mosaic-IT. The **upper** section represents the original Instruction Tuning method. In the **middle** is our method with the Primary Mosaic strategy, which concatenates instructions and corresponding responses as an augmentation for better Instruction Tuning. On the right are corresponding data examples of each method. The **lower** section illustrates the three Auxiliary Mosaic Strategies for Mosaic-IT. 
+
+## Highlights
+
+* We **extend the instruction tuning process into arbitrarily following multiple instructions**, rather than one instruction at a time, which dramatically digs out the potential of the existing instruction tuning dataset.
+* Our Mosaic-IT (1) **achieves better performances** on various benchmarks, with (2) **80% reduction on training cost** (3) **without using any extra models**。
+* Our method is **a potential attempt to alleviate the memorizing effects** during training, see Further Discussion for details.
+* The Mosaic Strategies and Predefined Rules in our method **can be easily further extended**, potentially further improve the Mosaic-IT performance. 
 
 ## Install
 
@@ -42,3 +77,23 @@ We use the prompt and code base from [FastChat](https://github.com/lm-sys/FastCh
 ```
 A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: Hi ASSISTANT: Hello.</s>USER: Who are you? ASSISTANT: I am ...</s>......
 ```
+
+## ToDo
+- [x] Initialize the repo.
+- [ ] Release paper on Arxiv.
+
+## Citation
+
+Please consider citing our papers if you think our codes, data, or models are useful. Thank you! <br>
+
+```
+```
+
+## Related Works
+
+If you are interested in Data Selection for Instruction Tuning, please see [Cherry_LLM](https://github.com/MingLiiii/Cherry_LLM) and [Superfiltering](https://github.com/tianyi-lab/Superfiltering). <br>
+If you are interested in Data Improvement for Instruction Tuning, please see [Reflection_Tuning](https://github.com/tianyi-lab/Reflection_Tuning). <br>
+If you are interested in Knowledge Distillation in the LLM era, please see this [Survey](https://github.com/Tebmer/Awesome-Knowledge-Distillation-of-LLMs). <br>
+
+
+
