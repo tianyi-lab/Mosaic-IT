@@ -435,7 +435,7 @@ def main():
 
     all_shuffled_data = []  # Master list to hold all shuffled data
 
-    for epo in tqdm(args.epo_num):
+    for epo in tqdm(range(args.epo_num)):
         shuffled_data = original_data.copy()  # Create a copy of the original data for each shuffle
         random.shuffle(shuffled_data)
 
