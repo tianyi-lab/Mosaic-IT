@@ -1,6 +1,6 @@
 # Mosaic IT: Enhancing Instruction Tuning with Data Mosaics
 
-[Mosaic IT: Enhancing Instruction Tuning with Data Mosaics](https://github.com/MingLiiii/Mosaic-IT) (Will be on Arxiv soon.)
+[Mosaic IT: Enhancing Instruction Tuning with Data Mosaics](https://arxiv.org/abs/2405.13326) 
 
 <p align="center" width="40%">
 <a ><img src="images/icon.png" alt="overview" style="width: 40%; min-width: 300px; display: block; margin: auto;"></a>
@@ -80,13 +80,22 @@ A chat between a curious user and an artificial intelligence assistant. The assi
 
 ## ToDo
 - [x] Initialize the repo.
-- [ ] Release paper on Arxiv.
+- [x] Release paper on Arxiv.
+- [ ] Release data and model.
 
 ## Citation
 
 Please consider citing our papers if you think our codes, data, or models are useful. Thank you! <br>
 
 ```
+@misc{li2024mosaic,
+      title={Mosaic IT: Enhancing Instruction Tuning with Data Mosaics}, 
+      author={Ming Li and Pei Chen and Chenguang Wang and Hongyu Zhao and Yijun Liang and Yupeng Hou and Fuxiao Liu and Tianyi Zhou},
+      year={2024},
+      eprint={2405.13326},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
 
 ## Related Works
