@@ -88,13 +88,24 @@ A chat between a curious user and an artificial intelligence assistant. The assi
 Please consider citing our papers if you think our codes, data, or models are useful. Thank you! <br>
 
 ```
-@misc{li2024mosaic,
+@misc{li2024mosaicitenhancinginstruction,
       title={Mosaic IT: Enhancing Instruction Tuning with Data Mosaics}, 
       author={Ming Li and Pei Chen and Chenguang Wang and Hongyu Zhao and Yijun Liang and Yupeng Hou and Fuxiao Liu and Tianyi Zhou},
       year={2024},
       eprint={2405.13326},
       archivePrefix={arXiv},
-      primaryClass={cs.CL}
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2405.13326}, 
+}
+
+@misc{li2024rulerimprovingllmcontrollability,
+      title={RuleR: Improving LLM Controllability by Rule-based Data Recycling}, 
+      author={Ming Li and Han Chen and Chenguang Wang and Dang Nguyen and Dianqi Li and Tianyi Zhou},
+      year={2024},
+      eprint={2406.15938},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2406.15938}, 
 }
 ```
 
