@@ -2,6 +2,8 @@
 
 [Mosaic IT: Enhancing Instruction Tuning with Data Mosaics](https://arxiv.org/abs/2405.13326) 
 
+Chinese Version: [知乎](https://zhuanlan.zhihu.com/p/2241517142)
+
 <p align="center" width="40%">
 <a ><img src="images/icon.png" alt="overview" style="width: 40%; min-width: 300px; display: block; margin: auto;"></a>
 </p>
