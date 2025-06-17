@@ -1,4 +1,4 @@
-# Mosaic IT: Enhancing Instruction Tuning with Data Mosaics
+# Mosaic IT: Enhancing Instruction Tuning with Data Mosaics (ACL'25)
 
 [Mosaic IT: Enhancing Instruction Tuning with Data Mosaics](https://arxiv.org/abs/2405.13326) 
 
