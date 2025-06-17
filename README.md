@@ -13,6 +13,7 @@ This is the repo for the Mosaic-IT project, which introduces an augmentation met
 (Feel free to email minglii@umd.edu for any questions or feedback.)
 
 ## News
+- [2025/05] Our paper has been accepted to the ACL 2025 findings!
 - [2024/05] We initialized the Mosaic-IT repo.
 
 ## Contents
@@ -90,24 +91,33 @@ A chat between a curious user and an artificial intelligence assistant. The assi
 Please consider citing our papers if you think our codes, data, or models are useful. Thank you! <br>
 
 ```
-@misc{li2024mosaicitenhancinginstruction,
-      title={Mosaic IT: Enhancing Instruction Tuning with Data Mosaics}, 
-      author={Ming Li and Pei Chen and Chenguang Wang and Hongyu Zhao and Yijun Liang and Yupeng Hou and Fuxiao Liu and Tianyi Zhou},
-      year={2024},
-      eprint={2405.13326},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2405.13326}, 
+@article{li2024mosaic,
+  title={Mosaic-IT: Free Compositional Data Augmentation Improves Instruction Tuning},
+  author={Li, Ming and Chen, Pei and Wang, Chenguang and Zhao, Hongyu and Liang, Yijun and Hou, Yupeng and Liu, Fuxiao and Zhou, Tianyi},
+  journal={arXiv preprint arXiv:2405.13326},
+  year={2024}
 }
 
-@misc{li2024rulerimprovingllmcontrollability,
-      title={RuleR: Improving LLM Controllability by Rule-based Data Recycling}, 
-      author={Ming Li and Han Chen and Chenguang Wang and Dang Nguyen and Dianqi Li and Tianyi Zhou},
-      year={2024},
-      eprint={2406.15938},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2406.15938}, 
+@inproceedings{li-etal-2025-ruler,
+    title = "{R}ule{R}: Improving {LLM} Controllability by Rule-based Data Recycling",
+    author = "Li, Ming  and
+      Chen, Han  and
+      Wang, Chenguang  and
+      Nguyen, Dang  and
+      Li, Dianqi  and
+      Zhou, Tianyi",
+    editor = "Chiruzzo, Luis  and
+      Ritter, Alan  and
+      Wang, Lu",
+    booktitle = "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 2: Short Papers)",
+    month = apr,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.naacl-short.78/",
+    doi = "10.18653/v1/2025.naacl-short.78",
+    pages = "926--943",
+    ISBN = "979-8-89176-190-2"
 }
 ```
 
