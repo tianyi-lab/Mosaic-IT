@@ -1,6 +1,6 @@
-# Mosaic IT: Enhancing Instruction Tuning with Data Mosaics (ACL'25)
+# Mosaic-IT: Cost-Free Compositional Data Synthesis for Instruction Tuning (ACL'25)
 
-[Mosaic IT: Enhancing Instruction Tuning with Data Mosaics](https://arxiv.org/abs/2405.13326) (ACL'25)
+[Mosaic-IT: Cost-Free Compositional Data Synthesis for Instruction Tuning](https://arxiv.org/abs/2405.13326) (ACL'25)
 
 Chinese Version: [知乎](https://zhuanlan.zhihu.com/p/2241517142)
 
