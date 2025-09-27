@@ -113,8 +113,7 @@ Please consider citing our papers if you think our codes, data, or models are us
     url = "https://aclanthology.org/2025.findings-acl.1297/",
     doi = "10.18653/v1/2025.findings-acl.1297",
     pages = "25287--25318",
-    ISBN = "979-8-89176-256-5",
-    abstract = "Finetuning large language models with a variety of instruction-response pairs has enhanced their capability to understand and follow instructions. Current instruction tuning primarily relies on teacher models or human intervention to generate and refine the instructions and responses for training, which are costly, non-sustainable, and may lack diversity. In this paper, we introduce Mosaic Instruction Tuning (Mosaic-IT), a human/model-free compositional data synthesis method that can efficiently create rich and diverse augmentations from existing instruction tuning data to enhance the LLMs. Mosaic-IT randomly concatenates multiple instruction data into one and trains the model to produce the corresponding responses with predefined higher-level meta-instructions to strengthen its multi-step instruction-following and format-following skills. Our extensive evaluations demonstrate a superior performance and training efficiency of Mosaic-IT, which achieves consistent performance improvements over various benchmarks and an 80{\%} reduction in training costs compared with original instruction tuning."
+    ISBN = "979-8-89176-256-5"
 }
 
 @inproceedings{li-etal-2025-ruler,
